@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+  <meta http-equiv="content-type" content="text/html; utf-8">
+  <title> Contaminacion </title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" type="text/css" href="js/app4.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+  <script src ="phonegap.js"></script><!--necesario*/-->
+  <script type ="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
+ </head>
+<body onLoad="MM_preloadImages('imagenes/bici5.jpg','imagenes/basura.jpg','imagenes/appsue.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> Contaminacion ambiental</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Banner conmemorativo:</h1>
+    <div>
+     <br> 
+    </div>
+    <div>
+     
+     <img src="imagenes/contaminacion.jpg" width="680" height="510">
+     
+     <br>
+     
+      <a 
+        href="https://definicion.de/reciclaje/" target=_self> Ir a la pagina relacionada al tema </a>
+     
+    </div>
+   </div>
+  </div>
+  <div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Definicion </h2>
+       <h3> ¿Que es la contaminacion ? </h3>
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Tipo de contaminacion</h2>
+       <h3> Se muestran los tipos de contaminacion que existen </h3>
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Consecuencias </h2> 
+       <h3> Demostracion de las consecuencias con enfoque al calentamiento</h3>
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Reciclaje</h2>
+       <h3> ¿Que es y como se clasifica el reciclaje? </h3>
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-icon-right ui-icon-carat-r">
+       <h2> Medidas para combatirla</h2>
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1> Un paisaje libre de contaminacion  :</h1>
+    <div>
+     <br> 
+    </div>
+    <div>
+     
+     <img src="imagenes/paisaje.jpg" width="800" height="800">
+     
+     <br>
+     
+      <a 
+        href="https://contaminacionambiental.info/que-es-la-contaminacion-ambiental/" target=_self> Ir a la pagina relacionada al tema </a>
+     
+    </div>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/earth.png" width="72" height="71">
+   </div>
+   <h4>Aplicación Cuatro</h4>
+   <h4>Oscar Morales Peña</h4>
+   
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> Definicion </h1> 
+  </div>
+<div data-role="content" align="center">
+   <div>
+    <h2>Podemos entender como contaminación a la alteración del estado natural de un medio, debido a la introducción de algo no perteneciente a él. O que en muchas ocasiones si llega a pertenecer pero no se encuentra en ese medio en grandes proporciones.
+
+Ahora conociendo que es la contaminación, entonces se entiende como contaminación ambiental algo que no pertenece en el ambiente ya sea físico, químico o biológico. De igual manera cuando la combinación de varios agentes se concentran y son nocivos para la salud y el bienestar de la población. <br>
+    
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/basura.jpg',1)"><img src="imagenes/aire.jpg" width="880" height="495" id="Image9"></a> 
+    
+  <br>
+        
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/earth.png" width="72" height="71">
+   </div>
+   <h4>Aplicación Cuatro, OMP</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+   <h1> Tipos </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+   
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/aire.jpg" alt="aire" title="aire" id="wows1_0"/></li>
+		<li><img src="data1/images/agua.jpg" alt="agua" title="agua" id="wows1_1"/></li>
+		<li><img src="data1/images/basura.jpg" alt="basura" title="basura" id="wows1_2"/></li>
+		<li><img src="data1/images/tala.jpg" alt="tala" title="tala" id="wows1_3"/></li>
+		<li><img src="data1/images/termica.jpg" alt="termica" title="termica" id="wows1_4"/></li>
+		<li><img src="data1/images/visual.jpg" alt="visual" title="visual" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/suelo.jpg" alt="wowslider" title="suelo" id="wows1_6"/></a></li>
+		<li><img src="data1/images/airep.jpg" alt="airep" title="airep" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="aire"><span><img src="data1/tooltips/aire.jpg" alt="aire"/>1</span></a>
+		<a href="#" title="agua"><span><img src="data1/tooltips/agua.jpg" alt="agua"/>2</span></a>
+		<a href="#" title="basura"><span><img src="data1/tooltips/basura.jpg" alt="basura"/>3</span></a>
+		<a href="#" title="tala"><span><img src="data1/tooltips/tala.jpg" alt="tala"/>4</span></a>
+		<a href="#" title="termica"><span><img src="data1/tooltips/termica.jpg" alt="termica"/>5</span></a>
+		<a href="#" title="visual"><span><img src="data1/tooltips/visual.jpg" alt="visual"/>6</span></a>
+		<a href="#" title="suelo"><span><img src="data1/tooltips/suelo.jpg" alt="suelo"/>7</span></a>
+		<a href="#" title="airep"><span><img src="data1/tooltips/airep.jpg" alt="airep"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wow slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   
+   
+  
+   
+   </div>
+  </div>
+  <div> 
+  
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/earth.png" width="71" height="76">
+   </div>
+   <h4>Aplicación Cuatro, OMP</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1> Consecuancias en el clima y el ambiente </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>  El impacto potencial es enorme, con predicciones de falta de agua potable, grandes cambios en las condiciones para la producción de alimentos y un aumento en los índices de mortalidad debido a inundaciones, tormentas, sequías y olas de calor. En definitiva, el cambio climático no es un fenómeno sólo ambiental sino de profundas consecuencias económicas y sociales. Los países más pobres, que están peor preparados para enfrentar cambios rápidos, serán los que sufrirán las peores consecuencias.</h2>  
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/appsue.jpg',1)"><img src="imagenes/basura.jpg" width="980" height="653" id="Image18"></a>
+<div>
+</div>
+    
+    
+    
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+     <img src="imagenes/earth.png" width="74" height="72">
+   </div>
+   <h4>Aplicación Cuatro, OMP</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1> Definicion </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>El reciclaje consiste en obtener una nueva materia prima o producto, mediante un proceso fisicoquímico o mecánico, a partir de productos y materiales ya en desuso o utilizados. De esta forma, conseguimos alargar el ciclo de vida de un producto, ahorrando materiales y beneficiando al medio ambiente al generar menos residuos.El reciclaje surje no sólo para eliminar residuos, sino para hacer frente al agotamiento de los recursos naturales del planeta.
+    Cada persona genera a diario una gran cantidad de residuos, muchos de los cuales pueden ser reutilizados o reciclados si se hace una buena clasificación y se depositan en el lugar correspondiente. Actualmente en la mayoría de poblaciones, existen 5 contenedores de basura en función del tipo de material que vamos a tirar: papel y cartón, envases y plástico, cristal y vidrio, fracción orgánica y resto o desechos. Asimismo, tenemos a nuestra disposición los puntos limpios de titularidad pública, donde podemos llevar aquellos residuos que no tienen un contenedor específico. </h2>
+    
+    <img src="imagenes/recicla.jpg" width="500" height="440">
+    <br>
+    
+
+    
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/earth.png" width="70" height="69">
+   </div>
+   <h4>Aplicación Cuatro, OMP</h4>
+  </div>
+ </div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> Convatir la contaminacion </h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+     <img src="imagenes/infractores.jpg" width="660" height="370">
+    <br>
+    <h3> las medidas o técnicas locales se basan principalmente en los métodos que podemos hacer la población, es decir, todos podemos participar en evitar la contaminación para ello simplemente tenemos que intentar no talar ni quemar plantas y árboles, se ha de crear una conciencia ciudadana sobre la contaminación y sus consecuencias, no tirar la basura o los desechos en lugares o zonas inapropiadas, también se debería controlar la utilización de pesticidas y fertilizantes además de regular la asistencia de aseo urbano. Sin embargo, no solo la ciudadanía puede participar en las cosas que hemos dicho anteriormente sino que también se pueden crear vías de desagües, especialmente en las industrias, para que los desechos que liberan no sean conducidos a ríos que usan animales y seres humanos, ni tampoco a mares. Además de esto también se debería controlar la liberación de relaves en la minería o los derramamientos accidentales del petróleo </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <div>
+    <img src="imagenes/earth.png" width="72" height="67">
+   </div>
+   <h4>Aplicación Cuatro, OMP</h4>
+  </div>
+ </div>
+
+
+</body>
+</html>
+
+ 
